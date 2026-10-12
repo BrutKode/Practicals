@@ -1,10 +1,10 @@
 import math
 
-class1 = int(input("Enter the number of students in class 1: "))
-class2 = int(input("Enter the number of students in class 2: "))
-class3 = int(input("Enter the number of students in class 3: "))
-
-classes = [class1, class2, class3]
+numberOfClasses = 3
+classes = []
+for i in range(1,numberOfClasses + 1):
+    clas = int(input(f"Enter the number of students in class{i}: "))
+    classes.append(clas)
 
 sum = 0
 for i in classes:
