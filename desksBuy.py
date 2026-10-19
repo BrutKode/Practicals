@@ -1,6 +1,6 @@
 import math
 
-numberOfClasses = 3
+numberOfClasses = int(input("Enter the number of classes: "))
 classes = []
 for i in range(1,numberOfClasses + 1):
     clas = int(input(f"Enter the number of students in class{i}: "))
