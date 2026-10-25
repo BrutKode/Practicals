@@ -1,0 +1,10 @@
+#Calculate the factorial of numbers
+n = int(input("Which number factorial to calculate"))
+
+if n == 0:
+    print(1)
+else:
+    result = 1
+    for i in range(1, n+1):
+        result = result * i
+    print(result)
