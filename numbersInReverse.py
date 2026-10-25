@@ -1,5 +1,5 @@
 #Display numbers in reverse order
-n = int(integer("How many numbers: "))
+n = int(input("How many numbers: "))
 
-for i in range(1, n+1, -1):
+for i in range(n, 0, -1):
     print(i)

@@ -13,7 +13,7 @@ if month not in monthsWith31Days:
         if year%400 == 0 or (year%4 == 0 and year%100 != 0):
             if day > 29:
                 valid = False
-        if day > 28:
+        elif day > 28:
             valid = False
     if day > 30:
         valid = False

@@ -7,8 +7,8 @@ if num < 2:
 else:
     n = math.ceil(math.sqrt(num))
     prime = True
-    for i in range(2, n+1):
-        if n%i == 0:
+    for i in range(2, n):
+        if num%i == 0:
             prime = False
             break
     if prime:

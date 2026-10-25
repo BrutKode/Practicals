@@ -1,5 +1,5 @@
 #Calculate the factorial of numbers
-n = int(input("Which number factorial to calculate"))
+n = int(input("Which number factorial to calculate: "))
 
 if n == 0:
     print(1)

@@ -12,7 +12,7 @@ if D>0:
     root1 = (-(b) + math.sqrt(D))/2*a
     root2 = (-(b) - math.sqrt(D))/2*a
     print(f"Roots are {root1} and {root2}")
-elif D=0:
+elif D==0:
     root = -(b)/2*a
     print(f"Both roots are {root}")
 else:
